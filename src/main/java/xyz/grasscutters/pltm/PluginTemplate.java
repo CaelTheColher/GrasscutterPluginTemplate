@@ -78,7 +78,7 @@ public final class PluginTemplate extends Plugin {
         new EventHandler<>(PlayerJoinEvent.class)
                 .priority(HandlerPriority.LOW)
                 .listener(EventListeners::onJoin)
-                .register();
+                .register(instance);
         
         // Register commands.
         this.getHandle().registerCommand(new ExampleCommand());

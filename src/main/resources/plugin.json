@@ -1,8 +1,8 @@
 {
   "name": "PluginTemplate",
-  "description": "The Grasscutter example plugin, which uses Maven.",
-  "version": "1.0.2-dev",
-  "authors": [ "KingRainbow44" ],
+  "description": "The Grasscutter example plugin, which uses Gradle.",
+  "version": "${version}",
+  "authors": [ "KingRainbow44", "Cael" ],
   
   "mainClass": "xyz.grasscutters.pltm.PluginTemplate",
   
